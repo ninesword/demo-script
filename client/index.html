@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>example</title>
+</head>
+
+<body>
+  <script defer type="text/javascript" src="/script2.js"></script>
+  <script defer type="text/javascript" src="/script1.js"></script>
+  <h1>Hello</h1>
+
+  <!-- <script async type="text/javascript" src="/script3.js"></script> -->
+  <p>after script tags</p>
+  <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', function () {
+      console.log('DOMContentLoaded')
+    })
+  </script>
+</body>
+
+</html>
